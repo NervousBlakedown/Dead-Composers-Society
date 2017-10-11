@@ -1,0 +1,20 @@
+.background {
+  color: black;
+}
+#title {
+  text-align: center;
+  float: none;
+  font: Garamond;
+}
+
+.topnav {
+  float: none;
+  text-align: center;
+  background-color: #ddd;
+  color: black;
+}
+
+.words {
+  text-align: center;
+  font: Garamond;
+}
