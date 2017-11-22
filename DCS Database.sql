@@ -25,4 +25,5 @@ CREATE TABLE Invoices (
 
 /*Composers Data*/
 INSERT INTO Composers (First_Name, Last_Name, Is_Alive)
-VALUES ('Ludwig', 'Beethoven', TRUE);
+VALUES ('Ludwig', 'Beethoven', FALSE);
+VALUES ('Johannes', 'Brahms', FALSE)
