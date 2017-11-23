@@ -1,6 +1,7 @@
-/*List all Tables here*/
+/*All Tables Here*/
 CREATE TABLE Composers (
                 First_Name VARCHAR(255),
+                Middle_Name VARCHAR(255),
                 Last_Name VARCHAR(255),
                 Date_Of_Birth DATE,
                 Birth_Place VARCHAR(255),
@@ -23,7 +24,9 @@ CREATE TABLE Invoices (
                 Invoice_Total INT
                 );
 
+
 /*Composers Data*/
-INSERT INTO Composers (First_Name, Last_Name, Is_Alive)
-VALUES ('Ludwig', 'Beethoven', FALSE);
-VALUES ('Johannes', 'Brahms', FALSE)
+INSERT INTO Composers (First_Name, Middle_Name, Last_Name, Is_Alive)
+VALUES ('Ludwig', 'Van', 'Beethoven', FALSE),
+VALUES ('Johannes', 'NULL', 'Brahms', FALSE),
+VALUES ('Wolfgang', 'Amadeus', 'Mozart', FALSE);
