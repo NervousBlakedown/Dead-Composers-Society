@@ -6,7 +6,7 @@ CREATE TABLE Composers (
                 Date_Of_Birth DATE,
                 Birth_Place VARCHAR(255),
                 Death_Place VARCHAR(255),
-                Age INTEGER,
+                Age_At_Death INTEGER,
                 Is_Alive BOOLEAN
                 );
 
@@ -28,5 +28,6 @@ CREATE TABLE Invoices (
 /*Composers Data*/
 INSERT INTO Composers (First_Name, Middle_Name, Last_Name, Is_Alive)
 VALUES ('Ludwig', 'Van', 'Beethoven', FALSE),
-VALUES ('Johannes', 'NULL', 'Brahms', FALSE),
-VALUES ('Wolfgang', 'Amadeus', 'Mozart', FALSE);
+VALUES ('Johannes', 'N/A', 'Brahms', FALSE),
+VALUES ('Wolfgang', 'Amadeus', 'Mozart', FALSE),
+VALUES ('Sergei', 'N/A', 'Rachmaninov', FALSE);
