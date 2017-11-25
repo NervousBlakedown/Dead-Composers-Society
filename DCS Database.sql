@@ -29,5 +29,6 @@ CREATE TABLE Invoices (
 INSERT INTO Composers (First_Name, Middle_Name, Last_Name, Is_Alive)
 VALUES ('Ludwig', 'Van', 'Beethoven', FALSE),
 VALUES ('Johannes', 'N/A', 'Brahms', FALSE),
+VALUES ('Edvard', 'N/A', 'Grieg', FALSE),
 VALUES ('Wolfgang', 'Amadeus', 'Mozart', FALSE),
 VALUES ('Sergei', 'N/A', 'Rachmaninov', FALSE);
