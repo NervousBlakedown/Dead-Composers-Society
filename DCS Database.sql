@@ -36,5 +36,6 @@ VALUES ('Sergei', 'N/A', 'Rachmaninov', FALSE),
 VALUES ('Pyotr', 'Ilyich', 'Tchaikovsky', FALSE);
 
 /*Customers Data*/
-INSERT INTO Customers
-VALUES ('Blake', 'Calhoun', 'blakecalhoun35@gmail.com');
+INSERT INTO Customers (First_Name, Last_Name, Email_Address)
+VALUES ('Blake', 'Calhoun', 'blakecalhoun35@gmail.com'),
+VALUES ('Zach', 'Hersha', 'zacharyhersha@gmail.com');
