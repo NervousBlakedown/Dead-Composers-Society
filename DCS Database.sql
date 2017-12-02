@@ -33,6 +33,7 @@ VALUES ('Claude', 'N/A', 'Debussy', FALSE),
 VALUES ('Edvard', 'N/A', 'Grieg', FALSE),
 VALUES ('Franz', 'Josef', 'Haydn', FALSE),
 VALUES ('Wolfgang', 'Amadeus', 'Mozart', FALSE),
+VALUES ('Sergei', 'N/A', 'Prokofiev', FALSE),
 VALUES ('Sergei', 'N/A', 'Rachmaninov', FALSE),
 VALUES ('Pyotr', 'Ilyich', 'Tchaikovsky', FALSE);
 
