@@ -39,4 +39,4 @@ VALUES ('Pyotr', 'Ilyich', 'Tchaikovsky', FALSE);
 
 /*Customers Data*/
 INSERT INTO Customers (First_Name, Last_Name, Email_Address)
-VALUES ('Zach', 'Hersha', 'zacharyhersha@gmail.com');
+VALUES ('Zachary', 'Hersha', 'zacharyhersha@gmail.com');
