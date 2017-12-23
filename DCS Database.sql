@@ -40,3 +40,5 @@ VALUES ('Pyotr', 'Ilyich', 'Tchaikovsky', FALSE);
 /*Customers Data*/
 INSERT INTO Customers (First_Name, Last_Name, Email_Address)
 VALUES ('Zachary', 'Hersha', 'zacharyhersha@gmail.com');
+
+ANALYZE TABLE Customers COMPUTE STATISTICS;
